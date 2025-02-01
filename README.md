@@ -72,21 +72,6 @@ You can access the live demo of this project at the following URL:
 
 [Live Demo](https://dem-tech-ai-internship.vercel.app/)
 
-## Folder Structure
-
-Here's a brief overview of the folder structure:
-
-```
-/pages            # Contains the app's pages
-  /index.js       # The main page for the mailing scheduler
-/api              # Mock API routes to simulate mailer, list, and schedule APIs
-  /mailers.js     # API mock for fetching mailer templates
-  /lists.js       # API mock for fetching recipient lists
-  /schedule.js    # API mock for scheduling mailings
-/components       # Reusable components like the form, lists, etc.
-/styles           # Global styles and CSS files
-```
-
 ## Testing
 
 If you'd like to test or add additional features, consider using Jest or React Testing Library for unit tests and component tests. The project currently doesn't have automated tests, but they can be added as needed.
